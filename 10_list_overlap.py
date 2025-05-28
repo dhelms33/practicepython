@@ -6,7 +6,7 @@ class Overlap:
         min_len = min(len(a), len(b))
         common = []
         for item in range(min_len):
-            if item in a and item in b:
+            if item in self.a and item in self.b:
                 common.append(item)
         return common
 if __name__ == "__main__":
