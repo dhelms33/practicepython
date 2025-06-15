@@ -1,4 +1,4 @@
-class lists:
+class UniqueLists:
     @staticmethod
     def list_less_than_10(lst):
         if not lst:
