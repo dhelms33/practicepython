@@ -19,5 +19,9 @@ if __name__ == "__main__":
         if lower_ui == "No" or user_input == "N":
             
         obj_instance = Password()
+    
+    
+    except ValueError:
+        print("That is not an accepted string, try again.")
             
     
